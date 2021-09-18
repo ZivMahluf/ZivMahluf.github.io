@@ -1,0 +1,129 @@
+/*
+
+Reflux Template
+
+https://templatemo.com/tm-531-reflux
+
+*/
+
+@import url(fontawesome.css);
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
+
+
+
+/* Section */
+
+.section {
+    color: #212529;
+    width: 80%;
+    right: 10%;
+    left: 10%;
+    position: relative;
+    min-height: 100vh;
+    
+    border-bottom: 3px solid rgba(250, 250, 250, 0.25);
+}
+
+.section-heading {
+    text-align: center;
+    padding: 80px 45px;
+}
+
+.section-heading h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.section-heading .line-dec {
+    width: 60px;
+    height: 3px;
+    background-color: #a43f49;
+    margin: 10px auto;
+}
+
+.section-heading span {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 0.5px;
+}
+
+
+
+/* Services */
+
+.my-services .col-md-6 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.service-item {
+    margin-bottom: 10px;
+    padding: 50px;
+    background-color: #f4f5f8;
+    transition: all 0.5s;
+}
+
+.service-item h4 {
+    transition: all 0.5s;
+    color: #EF3724;
+}
+
+.service-item p {
+    transition: all 0.5s;
+}
+
+.service-item:hover {
+    background-color: rgba(250, 250, 250, 1);
+}
+
+.service-item:hover h4 {
+    color: #1e1e1e;
+}
+
+.service-item:hover p {
+    color: #EF3724;
+}
+
+.service-item .service-icon {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    margin-bottom: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+}
+
+.service-item .first-service-icon {
+    background-image: url(../img/skills/unity.png);
+}
+/* 
+.service-item:hover .first-service-icon {
+    background-image: url(../img/first-main-icon.png);
+} */
+
+.service-item .second-service-icon {
+    background-image: url(../img/skills/vr.png);
+}
+/* 
+.service-item:hover .second-service-icon {
+    background-image: url(../img/second-main-icon.png);
+} */
+
+.service-item .third-service-icon {
+    background-image: url(../img/skills/ar.png);
+}
+/* 
+.service-item:hover .third-service-icon {
+    background-image: url(../img/third-main-icon.png);
+} */
+
+.service-item .fourth-service-icon {
+    background-image: url(../img/skills/ai.png);
+}
+/* 
+.service-item:hover .fourth-service-icon {
+    background-image: url(../img/fourth-main-icon.png);
+} */

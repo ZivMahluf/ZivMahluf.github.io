@@ -31,6 +31,11 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="assets/css/templatemo-style.css" />
+  
+  
 </head>
 <body class="theme-red">
   
@@ -95,13 +100,60 @@
           <button onclick="newTab()" class="btn btn-theme-outline">Show CV</button>
           <script>
             function newTab() {
-              window.open("/assets/files/Ziv_Mahluf_CV.pdf", "_blank");
+              window.open("/Ziv_Mahluf_CV.pdf", "_blank");
             }
           </script>
         </div>
       </div>
     </div>
-    <div class="container py-5">
+
+    <!-- New skills -->
+    <div class="container pt-5">
+      <h1 class="text-center fw-normal wow fadeIn">My Skills</h1>
+          <div class="row">
+            <div class="col-md-6 wow fadeInRight">
+              <div class="service-item">
+                <div class="first-service-icon service-icon"></div>
+                <h4>Unity Development</h4>
+                <p>
+                  Vast experience in all types of projects (2D, 3D, VR, AR, etc.) for all types of platforms (iOS, Android, Windows, etc.)
+                  Teaching Unity VR development in Huji.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 wow fadeInRight">
+              <div class="service-item">
+                <div class="second-service-icon service-icon"></div>
+                <h4>Virtual Reality</h4>
+                <p>
+                  Comprehensive knowledge of libraries and tools (Oculus SDK including LipSync and Avatars, VRTK, XR Interaction Toolkit). Built for all types of Oculus headsets (Go, Rift, Quest).
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 wow fadeInRight">
+              <div class="service-item">
+                <div class="third-service-icon service-icon"></div>
+                <h4>Augmented Reality</h4>
+                <p>
+                  Led the development of large-scale AR projects, including AR system design and software architecture.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 wow fadeInRight">
+              <div class="service-item">
+                <div class="fourth-service-icon service-icon"></div>
+                <h4>Artificial Intelligence</h4>
+                <p>
+                  Built a wide-range of projects, from robotics to game theory. I'm majoring in AI through my M.Sc.
+                </p>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <!-- OLD SKILLS -->
+
+    <!-- <div class="container py-5">
       <h1 class="text-center fw-normal wow fadeIn">My Skills</h1>
       <div class="row py-3">
         <div class="col-md-4">
@@ -192,14 +244,16 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
+
+
     <div class="container pt-5">
       <div class="row">
         <div class="col-md-6 wow fadeInRight">
           <h2 class="fw-normal">Education</h2>
           <ul class="timeline mt-4 pr-md-5">
             <li>
-              <div class="title">2021</div>
+              <div class="title">2021 - Current</div>
               <div class="details">
                 <h5>Computer Science, M.Sc.</h5>
                 <small class="fg-theme">Hebrew University of Jerusalem, Israel</small>
@@ -209,7 +263,7 @@
               </div>
             </li>
             <li>
-              <div class="title">2017</div>
+              <div class="title">2017-2021</div>
               <div class="details">
                 <h5>Computer Science, B.Sc.</h5>
                 <small class="fg-theme">Hebrew University of Jerusalem, Israel</small>
@@ -221,7 +275,7 @@
               </div>
             </li>
             <li>
-              <div class="title">2014</div>
+              <div class="title">2014-2014</div>
               <div class="details">
                 <h5>Programming Course</h5>
                 <small class="fg-theme">IDF</small>
@@ -235,7 +289,7 @@
           <h2 class="fw-normal">Experience</h2>
           <ul class="timeline mt-4 pr-md-5">
             <li>
-              <div class="title">2021</div>
+              <div class="title">2021 - Current</div>
               <div class="details">
                 <h5>Research Assistant, Teaching Assistant</h5>
                 <small class="fg-theme">Hebrew University of Jerusalem</small>
@@ -368,7 +422,6 @@
         </div>
         <div class="grid-item AI wow zoomIn">
           <div class="img-place" data-src="../assets/img/work/Durak.png" data-fancybox data-caption="<h5 class='fg-theme'>Durak</h5> <p>AI</p> 
-            <p> Link to the git repository: https://github.com/ZivMahluf/Intro2AI-FinalProject</p>
             <p>As part of the Intro2AI course, we built an agent that plays Durak (a Russian cards game). </p> 
             <p> Durak is considered a hard game to solve, since it involves an imperfect information, a multi agent and a multi action environment. </p>
             <p> Using Reinforcement Learning techniques, such as NFSP (Neural Fictitious Self Play) and PPO (Proximal Policy Optimization), we were able to achieve excellent results against various hard-coded agents, passing 99%-win rate against 3 random agents. </p>
