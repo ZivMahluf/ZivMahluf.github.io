@@ -78,7 +78,7 @@
       <div class="row">
         <div class="col-lg-4 py-3">
           <div class="img-place wow fadeInUp">
-            <img src="../assets/img/linkedin_image.jpg" alt="">
+            <img src="../assets/img/new_image.jpg" alt="">
           </div>
         </div>
         <div class="col-lg-6 offset-lg-1 wow fadeInRight">
@@ -91,7 +91,13 @@
             <li><b>Age:</b> 26</li>
             <li><b>Gender:</b> Male</li>
           </ul>
-          <a href="/assets/files/Ziv_Mahluf_CV.pdf" class="btn btn-theme-outline">Download CV</a>
+          <!-- Open the CV in a new tab -->
+          <button onclick="newTab()" class="btn btn-theme-outline">Show CV</button>
+          <script>
+            function newTab() {
+              window.open("/assets/files/Ziv_Mahluf_CV.pdf", "_blank");
+            }
+          </script>
         </div>
       </div>
     </div>
@@ -362,6 +368,7 @@
         </div>
         <div class="grid-item AI wow zoomIn">
           <div class="img-place" data-src="../assets/img/work/Durak.png" data-fancybox data-caption="<h5 class='fg-theme'>Durak</h5> <p>AI</p> 
+            <p> Link to the git repository: https://github.com/ZivMahluf/Intro2AI-FinalProject</p>
             <p>As part of the Intro2AI course, we built an agent that plays Durak (a Russian cards game). </p> 
             <p> Durak is considered a hard game to solve, since it involves an imperfect information, a multi agent and a multi action environment. </p>
             <p> Using Reinforcement Learning techniques, such as NFSP (Neural Fictitious Self Play) and PPO (Proximal Policy Optimization), we were able to achieve excellent results against various hard-coded agents, passing 99%-win rate against 3 random agents. </p>
